@@ -1,0 +1,50 @@
+
+ <!DOCTYPE html>
+ <html lang="en">
+ 
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>English Premier League</title>
+     <link rel="stylesheet" type="text/css" href="style.css">
+ </head>
+ 
+ <body>
+     <main class="table" id="customers_table">
+         <section class="table__header">
+             <h1>English Premier League Standings 23/24</h1>
+             <div class="search-container">
+                <label for="search-input"></label>
+                <img src="images/search.png" alt="">
+                <input type="search" id="search-input" oninput="searchTable()" placeholder="Search teams">
+            </div>
+
+             </div>
+         </section>
+         <section class="table__body">
+             <table id="table">
+                <thead>
+                    <tr>
+                        <th>Position</th>
+                        <th>Team</th>
+                        <th>MP</th>
+                        <th>W</th>
+                        <th>D</th>
+                        <th>L</th>
+                        <th>GF</th>
+                        <th>GA</th>
+                        <th>GD</th>
+                        <th>Points</th>
+                        <th>Last 5 Matches</th>
+                    </tr>
+                </thead>
+                <tbody id="table-body">
+                 </tbody>
+             </table>
+         </section>
+     </main>
+     <script src="script.js"></script>
+ </body>
+ 
+ </html>
